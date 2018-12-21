@@ -42,3 +42,23 @@ ababab
 We have four Strings with a letter appearing two times and three with a letter
 appearing three times (Strings can count to both groups). Therefore the
 checksum is: `4 * 3 = 12`.
+
+## Day 2, part 2
+
+The input is a list of Strings of equal length. For any combination of two
+Strings, find their common characters. The output is the longest String of
+common characters.
+
+Example:
+```
+abcde
+fghij
+klmno
+pqrst
+fguij
+axcye
+wvxyz
+```
+
+`fghij` and `fguij` differ by the fewest characters, their common characters
+are: `fgij`.

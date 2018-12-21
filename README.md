@@ -20,3 +20,25 @@ Example:
 ```
 
 The result is 10 (frequencies: 3, 6, 10, 8, 6, 9, 12, 16, 14, 10)
+
+## Day 2, part 1
+
+The input is a list of Strings. The task is to count the number that have a
+string containing exactly two of any letter and then separately counting those
+with exactly three of any letter. Then multiply those two counts together to
+get a rudimentary checksum. This is the result.
+
+Example:
+```
+abcdef
+bababc
+abbcde
+abcccd
+aabcdd
+abcdee
+ababab
+```
+
+We have four Strings with a letter appearing two times and three with a letter
+appearing three times (Strings can count to both groups). Therefore the
+checksum is: `4 * 3 = 12`.
